@@ -14,11 +14,11 @@
         "tab": "Docs",
         "groups": [
           {
-            "group": "Overview",
+            "group": "Intoduction",
             "pages": [
-              "intro",
-              "quick_start",
-              "key_concepts"
+              "What is Chicory?",
+              "Quick Start",
+              "Key Concepts"
             ]
           },
           {
