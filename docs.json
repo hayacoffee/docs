@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Chicory Documentation",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,45 +11,34 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Docs",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Overview",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "intro",
+              "quick_start",
+              "key_concepts"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Guides",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
+              "guides/getting_started",
+              "guides/data_understanding",
+              "guides/quick_answers",
+              "guides/complex_analysis",
+              "guides/agents",
+              "guides/runbooks"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Reference",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api_reference",
+              "architecture",
+              "faq",
+              "glossary"
             ]
           }
         ]
@@ -58,19 +47,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Chicory Home",
+          "href": "https://chicory.ai",
+          "icon": "home"
         }
       ]
     }
@@ -82,21 +61,18 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Dashboard",
+        "href": "https://app.chicory.ai",
+        "type": "button"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+      "x": "https://x.com/ChicoryAI",
+      "github": "https://github.com/ChicoryAI",
+      "linkedin": "https://linkedin.com/company/chicory-ai"
+    },
+    "copyright": "© 2025 Chicory Inc."
   }
 }
